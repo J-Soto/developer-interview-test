@@ -2,6 +2,9 @@
 
 public class Rebate
 {
+    public Rebate()
+    {
+    }
     public string Identifier { get; set; }
     public IncentiveType Incentive { get; set; }
     public decimal Amount { get; set; }

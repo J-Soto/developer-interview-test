@@ -2,6 +2,9 @@
 
 public class Product
 {
+    public Product()
+    {
+    }
     public int Id { get; set; }
     public string Identifier { get; set; }
     public decimal Price { get; set; }
